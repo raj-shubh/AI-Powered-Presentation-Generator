@@ -18,14 +18,7 @@ This project uses **LangChain**, **Groq LLM**, and **Tavily Search** to automati
 Create a `.env` file in the project root with your API keys:  
 
 ```env
-GROQ_API_KEY=your_groq_key_here
-TAVILY_API_KEY=your_tavily_key_here
+  GROQ_API_KEY=your_groq_key_here
+  TAVILY_API_KEY=your_tavily_key_here 
 
-## Usage
 
-Run the script:  
-
-```bash
-python main.py
-
-Enter a topic, and the app will generate LLM_Presentation2.pptx in the project folder.
